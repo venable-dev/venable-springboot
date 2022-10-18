@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  server:
+    image: venable-springboot:1.0.0
+    build: .
+    container_name: venable-springboot
+    restart: always
+    ports:
+      - "8766:8080"
