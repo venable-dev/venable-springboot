@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: VEnable-SpringBoot
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://rm-8vb553159t6r76u6ujo.mysql.zhangbei.rds.aliyuncs.com:3306/venable
+    username: root
+    password: Cxc170016
+
